@@ -75,7 +75,7 @@ All required `data-testid` attributes are implemented:
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/<your-username>/stage0-profile-card.git
+   git clone https://github.com/samzilee/stage0-profile-card.git
    ```
 2. Open the project folder in your code editor.
 3. Open `index.html` in your browser to view the card.
@@ -85,7 +85,7 @@ All required `data-testid` attributes are implemented:
 
 ## 🌐 Live Demo
 
-🔗 **Live Site:** [https://your-live-link.netlify.app](https://your-live-link.netlify.app)
+🔗 **Live Site:** [https://hng-profile-card-stage-0.netlify.app/](https://hng-profile-card-stage-0.netlify.app/)
 
 ---
 

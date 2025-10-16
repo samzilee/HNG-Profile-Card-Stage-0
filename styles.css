@@ -103,7 +103,8 @@ figcaption {
 
 .time {
   color: #94a3b8;
-  height: 26px;
+  font-size: 0.9rem;
+  margin-top: -5px;
   width: fit-content;
 }
 
