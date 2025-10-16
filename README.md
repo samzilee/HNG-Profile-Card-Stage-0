@@ -39,18 +39,6 @@ All elements follow the **data-testid** requirements for automated testing.
 
 ---
 
-## 🧱 File Structure
-
-project-folder/
-│
-├── index.html
-├── styles.css
-├── script.js
-└── Assets/
-└── Walter_White_S5B.png
-
----
-
 ## 🧪 Data Test IDs
 
 All required `data-testid` attributes are implemented:
