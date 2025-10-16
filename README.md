@@ -1,7 +1,7 @@
 # 🧑‍💻 Stage 0 Profile Card
 
 A simple, responsive **personal profile card** built with **HTML, CSS, and JavaScript**.  
-This project is created as part of the **ALX Front-End Stage 0 Project** requirements.
+This project is created as part of the **HNG Front-End Stage 0 Project** requirements.
 
 ---
 
