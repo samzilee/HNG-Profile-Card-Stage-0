@@ -133,7 +133,7 @@ A reflective page sharing personal insights.
 
 **Structure**
 
-````html
+```html
 <main data-testid="test-about-page">
   <section>
     <h2>Bio</h2>
@@ -145,11 +145,16 @@ A reflective page sharing personal insights.
   </section>
   ...
 </main>
+```
 
---- ## 🚀 How to Run Locally 1. **Clone this repository:** ```bash git clone
-https://github.com/samzilee/HNG-Profile-Card-Stage-0.git
-````
+---
 
+## 🚀 How to Run Locally
+
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/samzilee/HNG-Profile-Card-Stage-0.git
+   ```
 2. Open the project folder in your code editor.
 3. Open `index.html` in your browser to view the card.
 4. The current time updates every second automatically.
@@ -164,6 +169,6 @@ https://github.com/samzilee/HNG-Profile-Card-Stage-0.git
 
 ## 👨‍💻 Author
 
-**Saliu Abubakar**
-Frontend Developer  
+**Saliu Abubakar**  
+Frontend Developer
 📧 Salihukoko40@gmail.com
