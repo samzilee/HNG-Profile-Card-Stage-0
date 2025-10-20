@@ -134,16 +134,18 @@ A reflective page sharing personal insights.
 **Structure**
 
 ```html
-<main data-testid="test-about-page">
-  <section>
-    <h2>Bio</h2>
-    <p>...</p>
-  </section>
-  <section>
-    <h2>Goals in this Program</h2>
-    <p>...</p>
-  </section>
-  ...
+<main>
+  <div data-testid="test-about-page">
+    <section data-testid="test-about-bio">
+      <h2>Bio</h2>
+      <p>...</p>
+    </section>
+    <section data-testid="test-about-goals">
+      <h2>Goals in this Program</h2>
+      <p>...</p>
+    </section>
+    ...
+  <div>
 </main>
 ```
 
