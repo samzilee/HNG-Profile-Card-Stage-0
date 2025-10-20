@@ -1,15 +1,5 @@
 const timeStamp = document.querySelector("[data-testid='test-user-time']"); 
 const userBio = document.querySelector("[data-testid='test-user-bio']");
-const followBtn = document.getElementById("followBtn");
-
-
-let isFollowingUser = false;
-
-followBtn.addEventListener("click", () => {
-    isFollowingUser = !isFollowingUser;
-    followBtn.textContent = isFollowingUser ? "Following" : "Follow";
-    followBtn.classList.toggle("following", isFollowingUser);
-});
 
 
 timeStamp.textContent = Date.now();

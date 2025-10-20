@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./contactStyles.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <header>
+      <ul data-testid="test-user-navigation" class="page-navigation">
+        <li>
+          <a href="../../index.html" data-testid="test-user-navigation-profile"
+            >Profile</a
+          >
+        </li>
+        <li>
+          <a href="../about/about.html" data-testid="test-user-navigation-about"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            href="./contact.html"
+            data-testid="test-user-navigation-contact"
+            class="inView"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </header>
+    <main>
+      <form novalidate>
+        <h1>Contact Me</h1>
+        <div class="inputs">
+          <section>
+            <label for="full_name">Name</label>
+            <input
+              type="text"
+              id="full_name"
+              placeholder="Enter full name"
+              data-testid="test-contact-name"
+              aria-describedby="error_name"
+              required
+            />
+            <p id="error_name" data-testid="test-contact-error-name"></p>
+          </section>
+          <section>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter email"
+              data-testid="test-contact-email"
+              aria-describedby="error_email"
+              required
+            />
+            <p id="error_email" data-testid="test-contact-error-email"></p>
+          </section>
+          <section>
+            <label for="subject">Subject</label>
+            <input
+              id="subject"
+              placeholder="Enter subject"
+              data-testid="test-contact-subject"
+              aria-describedby="error_subject"
+              required
+            />
+            <p id="error_subject" data-testid="test-contact-error-subject"></p>
+          </section>
+          <section>
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Enter your message"
+              data-testid="test-contact-message"
+              aria-describedby="error_message"
+              required
+            ></textarea>
+            <p id="error_message" data-testid="test-contact-error-message"></p>
+          </section>
+        </div>
+        <div class="submit-section">
+          <button id="submit" data-testid="test-contact-submit" type="submit">
+            Submit
+          </button>
+        </div>
+        <p
+          data-testid="test-contact-success"
+          id="success-message"
+          class="success-message"
+          aria-live="polite"
+        ></p>
+      </form>
+    </main>
+    <script src="./contactScript.js"></script>
+  </body>
+</html>
