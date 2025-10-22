@@ -134,8 +134,8 @@ A reflective page sharing personal insights.
 **Structure**
 
 ```html
-<main>
-  <div data-testid="test-about-page">
+<main data-testid="test-about-page">
+  <div>
     <section data-testid="test-about-bio">
       <h2>Bio</h2>
       <p>...</p>

@@ -134,30 +134,53 @@ form h1 {
 }
 .inputs section p {
   font-size: small;
+  font-weight: bold;
   color: #fee2e2;
-  border: solid red 2px;
-  background-color: #991b1b;
+  border: solid rgba(255, 0, 0, 0.404) 2px;
+  background-color: #991b1bda;
+  backdrop-filter: blur(2px);
   width: fit-content;
   padding: 0px 10px;
   border-radius: 5px;
   position: absolute;
-  bottom: -10px;
+  bottom: -15px;
   left: 10px;
   margin-top: 5px;
 }
 .inputs section input,
-textarea {
+.inputs section textarea {
   outline: none;
   max-width: 100%;
   min-width: 100%;
   max-height: 200px;
-  color: black;
+  color: white;
   font-size: 1rem;
   padding: 10px 10px;
   font-weight: bold;
   border-radius: 10px;
   border: solid #3b83f6ab 2px;
+  background-color: rgba(255, 255, 255, 0.164);
+  transition: background-color 0.3s ease;
 }
+
+.inputs section input:focus,
+.inputs section textarea:focus {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.inputs section input:-webkit-autofill,
+.inputs section textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0.164) inset !important;
+  -webkit-text-fill-color: white !important;
+  caret-color: white;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+.inputs section input,
+.inputs section textarea {
+  -webkit-text-fill-color: white;
+}
+
 .inputs section textarea {
   min-height: 150px;
 }
